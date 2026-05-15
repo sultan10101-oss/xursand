@@ -103,6 +103,8 @@ async def send_full(sms: types.Message, state: FSMContext):
     await state.update_data(photo=sms.photo[0].file_id)
     await sms.answer(text='habar yuborildi')
     datas = await state.get_data()
+    # jane bir qatar
+    
 
 
     await state.clear()
