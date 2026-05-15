@@ -5,6 +5,6 @@ from aiogram.types import ReplyKeyboardMarkup,KeyboardButton,InlineKeyboardButto
 menu=ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='registration'),
+            KeyboardButton(text=''),
         ]
     ],resize_keyboard=True)

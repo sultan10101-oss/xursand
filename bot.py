@@ -19,7 +19,7 @@ class ToAdminState(StatesGroup):
 
 
 
-api = '8241194949:AAHD2xanWy_v0DpZIneESeWl9il8LBVakLw'
+api = ''
 bot = Bot(api)
 dp=Dispatcher()
 
